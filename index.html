@@ -105,19 +105,7 @@
    }
    
    
-   
-   
-   /* Iconfont made with icomoon.com */
-@font-face {
-	font-family: 'cbp-tmicons';
-	src:url('../fonts/tmicons/cbp-tmicons.eot');
-	src:url('../fonts/tmicons/cbp-tmicons.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/tmicons/cbp-tmicons.woff') format('woff'),
-		url('../fonts/tmicons/cbp-tmicons.ttf') format('truetype'),
-		url('../fonts/tmicons/cbp-tmicons.svg#cbp-tmicons') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
+     
 
 /* reset  list style */
 .cbp-tm-menu,
@@ -242,16 +230,16 @@ the right position for the arrow
 }
 
 .cbp-tm-show-above .cbp-tm-submenu:after {
-	border-top-color: #fff;
+	border-top-color: #FFFFFF;
 }
 
 .cbp-tm-show-below .cbp-tm-submenu:after {
-	border-bottom-color: #fff;
+	border-bottom-color: #FFFFFF;
 }
 
 .cbp-tm-submenu > li {
 	display: block;
-	background: #fff;
+	background: #FFFFFF;
 }
 
 .cbp-tm-submenu > li > a {
@@ -269,13 +257,13 @@ the right position for the arrow
 .no-touch .cbp-tm-submenu > li > a:hover,
 .no-touch .cbp-tm-submenu > li > a:active {
 	color: #fff;
-	background: #47a3da;
+	background: #000000;
 }
 
 /* the icons (main level menu icon and sublevel icons) */
 .cbp-tm-submenu li a:before,
 .cbp-tm-menu > li > a:before {
-	font-family: 'cbp-tmicons';
+	font-family: 'Belleza', sans-serif;
 	speak: none;
 	font-style: normal;
 	font-weight: normal;
@@ -294,79 +282,6 @@ the right position for the arrow
 	right: 0.5em;
 }
 
-.cbp-tm-menu > li > a:not(:only-child):before {
-	content: "\f0c9";
-	font-size: 60%;
-	opacity: 0.3;
-}
-
-.cbp-tm-icon-archive:before {
-	content: "\e002";
-}
-
-.cbp-tm-icon-cog:before {
-	content: "\e003";
-}
-
-.cbp-tm-icon-users:before {
-	content: "\e004";
-}
-
-.cbp-tm-icon-earth:before {
-	content: "\e005";
-}
-
-.cbp-tm-icon-location:before {
-	content: "\e006";
-}
-
-.cbp-tm-icon-mobile:before {
-	content: "\e007";
-}
-
-.cbp-tm-icon-screen:before {
-	content: "\e008";
-}
-
-.cbp-tm-icon-mail:before {
-	content: "\e009";
-}
-
-.cbp-tm-icon-contract:before {
-	content: "\e00a";
-}
-
-.cbp-tm-icon-pencil:before {
-	content: "\e00b";
-}
-
-.cbp-tm-icon-article:before {
-	content: "\e00c";
-}
-
-.cbp-tm-icon-clock:before {
-	content: "\e00d";
-}
-
-.cbp-tm-icon-videos:before {
-	content: "\e00e";
-}
-
-.cbp-tm-icon-pictures:before {
-	content: "\e00f";
-}
-
-.cbp-tm-icon-link:before {
-	content: "\e010";
-}
-
-.cbp-tm-icon-refresh:before {
-	content: "\e011";
-}
-
-.cbp-tm-icon-help:before {
-	content: "\e012";
-}
 
 /* Media Queries */
 @media screen and (max-width: 55.6875em) {
@@ -388,18 +303,18 @@ the right position for the arrow
 	.cbp-tm-menu > li {
 		display: block;
 		margin: 0;
-		border-bottom: 4px solid #3793ca;
+		border-bottom: 4px solid #000000;
 	}
 
 	.cbp-tm-menu > li:first-child {
-		border-top: 4px solid #3793ca;
+		border-top: 4px solid #000000;
 	}
 
 	li.cbp-tm-show > a,
 	.no-touch .cbp-tm-menu > li > a:hover,
 	.no-touch .cbp-tm-menu > li > a:active {
 		color: #fff;
-		background: #02639d;
+		background: #000000;
 	}
 
 	.cbp-tm-submenu {
@@ -415,7 +330,7 @@ the right position for the arrow
 	.cbp-tm-submenu > li > a {
 		padding: 0.6em 2.3em 0.6em 0.6em;
 		border: none;
-		border-bottom: 2px solid #6fbbe9;
+		border-bottom: 2px solid #000000;
 	}
 
 	.cbp-tm-submenu:after {
@@ -453,21 +368,21 @@ the right position for the arrow
 	<li>
 		<a href="index.html">Home</a>
 	</li>
+    
 	<li>
 		<a href="contact.html">Contact</a>
 		<ul class="cbp-tm-submenu">
 			<li><a href="#" class="cbp-tm-icon-archive">Sorrel desert</a></li>
-			<li><a href="#" class="cbp-tm-icon-cog">Raisin kakadu</a></li>
-	
 		</ul>
-	</li>
+        </li>
+        
 	<li>
 		<a href="about.html">About</a>
 		<ul class="cbp-tm-submenu">
-			<li><a href="#" class="cbp-tm-icon-archive">Brussels sprout</a></li>
-			<li><a href="#" class="cbp-tm-icon-cog">Kakadu lemon</a></li>
-			<li><a href="#" class=" icon-usd icon-2x icon-spin">How I Work/Fees</a></li>
-
+			<li><a href="#">Brussels sprout</a></li>
+			<li><a href="#">About Me</a></li>
+			<li><a href="#">Resume</a></li>
+            <li><a href="fees.html" class=" icon-usd icon-2x icon-spin">How I Work/Fees</a></li>
 
 		</ul>
 	</li>
@@ -483,8 +398,6 @@ the right position for the arrow
 		</ul>
 	</li>
 </ul>
-
-
 
 </nav>
 
